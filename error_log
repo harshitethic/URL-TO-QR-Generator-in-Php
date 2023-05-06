@@ -1,0 +1,54 @@
+[06-May-2023 06:04:58 UTC] PHP Warning:  include(phpqrcode/qrlib.php): failed to open stream: No such file or directory in /newhome/serverdock/public_html/qr/header.php on line 7
+[06-May-2023 06:04:58 UTC] PHP Warning:  include(): Failed opening 'phpqrcode/qrlib.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /newhome/serverdock/public_html/qr/header.php on line 7
+[06-May-2023 06:05:02 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /newhome/serverdock/public_html/qr/generate.php:6
+Stack trace:
+#0 {main}
+  thrown in /newhome/serverdock/public_html/qr/generate.php on line 6
+[06-May-2023 06:06:44 UTC] PHP Warning:  include(phpqrcode/qrlib.php): failed to open stream: No such file or directory in /newhome/serverdock/public_html/qr/generate.php on line 8
+[06-May-2023 06:06:44 UTC] PHP Warning:  include(): Failed opening 'phpqrcode/qrlib.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /newhome/serverdock/public_html/qr/generate.php on line 8
+[06-May-2023 06:06:44 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /newhome/serverdock/public_html/qr/generate.php:17
+Stack trace:
+#0 {main}
+  thrown in /newhome/serverdock/public_html/qr/generate.php on line 17
+[06-May-2023 06:06:54 UTC] PHP Warning:  include(phpqrcode/qrlib.php): failed to open stream: No such file or directory in /newhome/serverdock/public_html/qr/header.php on line 7
+[06-May-2023 06:06:54 UTC] PHP Warning:  include(): Failed opening 'phpqrcode/qrlib.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /newhome/serverdock/public_html/qr/header.php on line 7
+[06-May-2023 06:06:59 UTC] PHP Warning:  include(phpqrcode/qrlib.php): failed to open stream: No such file or directory in /newhome/serverdock/public_html/qr/generate.php on line 8
+[06-May-2023 06:06:59 UTC] PHP Warning:  include(): Failed opening 'phpqrcode/qrlib.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /newhome/serverdock/public_html/qr/generate.php on line 8
+[06-May-2023 06:06:59 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /newhome/serverdock/public_html/qr/generate.php:17
+Stack trace:
+#0 {main}
+  thrown in /newhome/serverdock/public_html/qr/generate.php on line 17
+[06-May-2023 06:08:23 UTC] PHP Warning:  imagepng(temp/6455eed7d9c0b.png): failed to open stream: No such file or directory in /newhome/serverdock/public_html/qr/phpqrcode/qrimage.php on line 43
+[06-May-2023 06:08:23 UTC] PHP Warning:  readfile(temp/6455eed7d9c0b.png): failed to open stream: No such file or directory in /newhome/serverdock/public_html/qr/generate.php on line 21
+[06-May-2023 06:08:23 UTC] PHP Warning:  unlink(temp/6455eed7d9c0b.png): No such file or directory in /newhome/serverdock/public_html/qr/generate.php on line 24
+[06-May-2023 06:08:27 UTC] PHP Notice:  Undefined index: url in /newhome/serverdock/public_html/qr/generate.php on line 11
+[06-May-2023 06:08:27 UTC] PHP Warning:  readfile(temp/6455eedbc7cad.png): failed to open stream: No such file or directory in /newhome/serverdock/public_html/qr/generate.php on line 21
+[06-May-2023 06:08:27 UTC] PHP Warning:  unlink(temp/6455eedbc7cad.png): No such file or directory in /newhome/serverdock/public_html/qr/generate.php on line 24
+[06-May-2023 06:09:43 UTC] PHP Notice:  Constant QR_MODE_NUL already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 31
+[06-May-2023 06:09:43 UTC] PHP Notice:  Constant QR_MODE_NUM already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 32
+[06-May-2023 06:09:43 UTC] PHP Notice:  Constant QR_MODE_AN already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 33
+[06-May-2023 06:09:43 UTC] PHP Notice:  Constant QR_MODE_8 already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 34
+[06-May-2023 06:09:43 UTC] PHP Notice:  Constant QR_MODE_KANJI already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 35
+[06-May-2023 06:09:43 UTC] PHP Notice:  Constant QR_MODE_STRUCTURE already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 36
+[06-May-2023 06:09:43 UTC] PHP Notice:  Constant QR_ECLEVEL_L already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 40
+[06-May-2023 06:09:43 UTC] PHP Notice:  Constant QR_ECLEVEL_M already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 41
+[06-May-2023 06:09:43 UTC] PHP Notice:  Constant QR_ECLEVEL_Q already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 42
+[06-May-2023 06:09:43 UTC] PHP Notice:  Constant QR_ECLEVEL_H already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 43
+[06-May-2023 06:09:43 UTC] PHP Notice:  Constant QR_FORMAT_TEXT already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 47
+[06-May-2023 06:09:43 UTC] PHP Notice:  Constant QR_FORMAT_PNG already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 48
+[06-May-2023 06:09:43 UTC] PHP Fatal error:  Cannot declare class qrstr, because the name is already in use in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 50
+[06-May-2023 06:10:08 UTC] PHP Notice:  Constant QR_MODE_NUL already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 31
+[06-May-2023 06:10:08 UTC] PHP Notice:  Constant QR_MODE_NUM already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 32
+[06-May-2023 06:10:08 UTC] PHP Notice:  Constant QR_MODE_AN already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 33
+[06-May-2023 06:10:08 UTC] PHP Notice:  Constant QR_MODE_8 already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 34
+[06-May-2023 06:10:08 UTC] PHP Notice:  Constant QR_MODE_KANJI already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 35
+[06-May-2023 06:10:08 UTC] PHP Notice:  Constant QR_MODE_STRUCTURE already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 36
+[06-May-2023 06:10:08 UTC] PHP Notice:  Constant QR_ECLEVEL_L already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 40
+[06-May-2023 06:10:08 UTC] PHP Notice:  Constant QR_ECLEVEL_M already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 41
+[06-May-2023 06:10:08 UTC] PHP Notice:  Constant QR_ECLEVEL_Q already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 42
+[06-May-2023 06:10:08 UTC] PHP Notice:  Constant QR_ECLEVEL_H already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 43
+[06-May-2023 06:10:08 UTC] PHP Notice:  Constant QR_FORMAT_TEXT already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 47
+[06-May-2023 06:10:08 UTC] PHP Notice:  Constant QR_FORMAT_PNG already defined in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 48
+[06-May-2023 06:10:08 UTC] PHP Fatal error:  Cannot declare class qrstr, because the name is already in use in /newhome/serverdock/public_html/qr/phpqrcode/qrconst.php on line 50
+[06-May-2023 06:11:12 UTC] PHP Warning:  imagepng(temp/qrcode.png): failed to open stream: No such file or directory in /newhome/serverdock/public_html/qr/phpqrcode/qrimage.php on line 43
+[06-May-2023 06:11:16 UTC] PHP Warning:  imagepng(temp/qrcode.png): failed to open stream: No such file or directory in /newhome/serverdock/public_html/qr/phpqrcode/qrimage.php on line 43
